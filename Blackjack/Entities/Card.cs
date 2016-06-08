@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Blackjack.Entities
-{
-    public class Card
+{ 
+    class Card
     {
         public string Name { get; set; }
         public int Value { get; set; }

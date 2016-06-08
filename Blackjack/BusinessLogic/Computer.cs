@@ -8,6 +8,7 @@ namespace Blackjack.BusinessLogic
 {
     public class Computer
     {
-
+        static public int computerScore;
+        static public int computerRound;
     }
 }

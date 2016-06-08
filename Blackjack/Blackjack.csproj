@@ -51,7 +51,6 @@
     <Compile Include="Entities\Card.cs" />
     <Compile Include="Entities\CardDeck.cs" />
     <Compile Include="Entities\CardSuit.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

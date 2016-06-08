@@ -10,16 +10,13 @@ namespace Blackjack.BusinessLogic
     {
         static void Main()
         {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("\n I want to play with you at Blackjack.\n");
             Console.Write(" Ready? ");
             Console.ReadLine();
-            Console.Clear();
-            Console.WriteLine("\n Cards in play:\n");
-            CardDeckService thisCardDeckService = new CardDeckService();
-            //CardDeckService.CardDeckService();
-            Console.ReadLine();
-            //Round rou = new Round();
-            //rou.Rounds();
+            Round thisRound = new Round();
+            thisRound.BeforeRound();
+            thisRound.Rounds(2, 1);
         }
     }
 }

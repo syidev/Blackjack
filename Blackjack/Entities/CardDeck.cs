@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Blackjack.Entities
 {
-     public class CardDeck
-    {
-        
-        public List<Card> Cards = new List<Card>
+    class CardDeck
+    {  
+        static public List<Card> Cards = new List<Card>
         {
             new Card { Name = "2", Value = 2, Suit = CardSuit.heart},
             new Card { Name = "3", Value = 3, Suit = CardSuit.heart},
